@@ -1,14 +1,109 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<body>
-
-<h1> The datalist elements
-</h1>
-
-<form action=" account registration" >
- First name: <br>
-<input type="text" id ="fname" name ="fname"><br>
-Last name: <br>
-<input type="text" id="lname" name="lname"><br><br>
-<input type="submit" value="submit">
-</form>
+<body bgcolor="green">
+<h1><center><b><i>"crispy snacks"</b></i></center></h1>
+<center><img src="C:\Users\Hello!\Downloads\Screenshot_20230218-141741_Chrome (1).jpg" width="200" height="200"></center>
+<p><i><b>Welcome you all to our crispy snacks. We assure our customers are satisfied by  our snacks and services.</i></b></p>
+<video with="100" height="100" controls>
+<source src="C:\Users\Hello!\Downloads\juice.mp4" type="video/mp4">
+</video>
+<h3><b><u>Menu</b></u></h3>
+<table border="1">
+<colgroup>
+<col span="1" bgcolor="blue">
+<col bgcolor="yellow">
+ 
+<tr>
+<th>snacks</th>
+<th>Price</th>
+</tr>
+<tr>
+<td>mikshar</th>
+<td>Rs.30</th>
+</tr>
+<tr>
+<td>muruku</th>
+<td>Rs.40</th>
+</tr>
+<tr>
+<td>boondhi</th>
+<td>Rs.40</th>
+</tr>
+<tr>
+<td>Bombay mikshar</th>
+<td>Rs.30</th>
+</tr>
+<tr>
+<td>white pakkodas</th>
+<td>Rs.40</th>
+</tr>
+<tr>
+<td>wheel chips</th>
+<td>Rs.20</th>
+</tr>
+ 
+<tr>
+<td>finger chips</th>
+<td>Rs.20</th>
+</tr>
+<tr>
+<td>All combination</th>
+<td>Rs.150</th>
+</tr>
+</table>
+<form action="">
+<b>Name:</b><br>
+<input type="text" id="name" name="name"><br>
+<b>Mobile No.:</b><br>
+<input type="tel" id="mobile" placeholder="1234567809" pattern="[1-9]{1}[0-9]{9}>" required<br><br>
+<b>Email.id:</b><br>
+<input type="email" id="mail" name="mail" value=""><br>
+<b>Address:</b><br>
+<textarea rows="4" cols="50" name="comment">
+</textarea>
+<fieldset>
+<legend> <b>snacks contact</b> </legend>
+<label> Choose your needed snacks:</label><br>
+<input type="checkbox" id="mikshar" name="mikshar" value="">
+<label> mikshar</label>
+<input type="number" id="count" name="count" value="" min="0" max="500"><br>
+<input type="checkbox" id="muruku" name="muruku" value="">
+<label>muruku</label>
+<input type="number" id="count" name="count" value="" min="0" max="500"><br>
+ 
+<input type="checkbox" id="" name="boondhi" value="">
+<label> boondhi</label>
+<input type="number" id="count" name="count" value="" min="0" max="500"><br>
+<input type="checkbox" id="Bombay mikshar" name="Bombay mikshar" value="">
+<label> Bombay mikshar</label>
+<input type="number" id="count" name="count" value="" min="0" max="500"><br>
+<input type="checkbox" id="white pakkodas" name="white pakkodas" value="">
+<label> white pakkodas</label>
+<input type="number" id="count" name="count" value="" min="0" max="500"><br>
+<input type="checkbox" id="wheel" name="wheel" value="">
+<label> wheel chips</label>
+<input type="number" id="count" name="count" value="" min="0" max="500"><br>
+<input type="checkbox" id="finger" name="finger" value="">
+<label> finger chips</label>
+<input type="number" id="count" name="count" value="" min="0" max="500"><br>
+<input type="checkbox" id="combined" name="combined" value="">
+<label> All combination juice</label>
+<input type="number" id="count" name="count" value="" min="0" max="500"><br>
+</fieldset>
+<fieldset>
+<legend><b>Mode of payment</b></legend>
+<label>Choose your mode of payment</label><br>
+<input type="radio" id="Net banking" name="payment">
+<label>Net banking</label><br>
+<input type="radio" id="Credit card" name="payment">
+<label>Credit card</label><br>
+<input type="radio" id="Debit card" name="payment">
+<label>Debit card</label><br>
+ 
+<input type="radio" id="Cash on delivery" name="payment">
+<label>Cash on delivery</label><br>
+</fieldset>
+<button type="submit">Submit
+</button>
+</body>
+</html>
